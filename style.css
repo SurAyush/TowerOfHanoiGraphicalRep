@@ -1,0 +1,50 @@
+body{
+    background-color: #fefae0;
+}
+h1{
+    color: #283618;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 4rem;
+}
+label{
+    font-size: 1.75rem;
+    color: #606c38;
+}
+#inp{
+    width: 10rem;
+    background-color: aliceblue;
+}
+button{
+    background-color: #dda15e;
+    width: 4rem;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.source, .aux, .dest{
+    width: 30%;
+    height: 300px;
+    position: relative;
+    background-color: aliceblue;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.nota{
+    font-size: 2rem;
+    text-align: center;
+}
+.block{
+    height: 20px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+    background-color: #606c38;
+    z-index: 10;
+}
