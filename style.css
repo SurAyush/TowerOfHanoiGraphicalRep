@@ -16,8 +16,11 @@ label{
     background-color: aliceblue;
 }
 button{
-    background-color: #dda15e;
+    background-color: green;
     width: 4rem;
+}
+.btn2{
+    background-color: maroon;
 }
 .box{
     width: 100%;
